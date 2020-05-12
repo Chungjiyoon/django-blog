@@ -1,14 +1,25 @@
+<body>
 
-<h1>wordcount!</h1>
+    <h1>wordcount!</h1>
 
 <a href="{%url 'about' %}">about </a>
 
+<a href="{%url 'apples' %}"> 누르세용</a> 
+
 <form action="{% url 'result' %}" method='GET'>
-    <textarea name="fulltext" id="" cols="30" rows="10" placeholder="얌">
-    </textarea>
+    <textarea name="fulltext" id="" cols="30" rows="10" placeholder="얌"></textarea>
 
     
     <button type="submit">count!</button>
 </form>
 
+    
+
+</body>
+
+<style> 
+   body { text-align: center;}
+   
+
+</style>
 

@@ -18,3 +18,7 @@ def result(request):
         else :
             word_dictionary[word] =  1
     return render(request,'result.html',{'text':text, 'total':len(words), 'dictionary':word_dictionary.items()})
+
+def apple(request):
+    a = '지윤'
+    return render(request, 'apple.html',{'qw':a})
